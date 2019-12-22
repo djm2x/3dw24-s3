@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "init": "git init && git remote add origin https://github.com/djm2x/3dw24-s3.git",
+    "push": "git add . && git commit -m \"first commit\" && git push -u origin master"
   },
   "private": true,
   "dependencies": {
